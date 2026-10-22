@@ -25,18 +25,33 @@
   </style>
 </head>
 <body>
-  <div id="feature">New Feature</div>
+  <div id="feature" tabindex="-1">New Feature</div>
   <div id="tour-step" popover="manual" role="dialog" aria-labelledby="tour-title">
     <h2 id="tour-title">Step 1</h2>
     <p>Interact with this feature!</p>
-    <button popovertarget="tour-step" popovertargetaction="hide">Got it</button>
+    <button popovertarget="tour-step" popovertargetaction="hide" onclick="moveFocus();">Got it</button>
   </div>
   <script>
+    const tour = document.getElementById('tour-step');
+    const feature = document.getElementById('feature');
     window.onload = () => {
-      const tour = document.getElementById('tour-step');
       tour.showPopover();
-      tour.querySelector('button').focus();
+      observeEscKeyDismiss();
     };
+
+    function observeEscKeyDismiss() {
+      document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        tour.hidePopover();
+        moveFocus();
+      }
+      });
+    }
+
+    function moveFocus() {
+      feature.focus();
+    }
+ 
   </script>
 </body>
 </html>
