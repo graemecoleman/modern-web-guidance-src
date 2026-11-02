@@ -1,8 +1,17 @@
 {
   "guides": {
     "accessibility": {
+      "accessibility": [
+        "daily-grind"
+      ],
       "accessible-error-announcement": [
         "task"
+      ],
+      "accessible-generated-content": [
+        "daily-grind"
+      ],
+      "respect-os-text-scale": [
+        "daily-grind"
       ]
     },
     "built-in-ai": {
@@ -24,6 +33,9 @@
       "animate-to-intrinsic-sizes": [
         "task"
       ],
+      "atrule-support-conditionals": [
+        "daily-grind"
+      ],
       "calculate-with-intrinsic-sizes": [
         "task"
       ],
@@ -32,6 +44,12 @@
       ],
       "content-based-styling": [
         "task"
+      ],
+      "css": [
+        "daily-grind"
+      ],
+      "css-layout": [
+        "daily-grind"
       ],
       "design-token-reactivity": [
         "task"
@@ -51,12 +69,22 @@
       "reduce-style-repetition": [
         "task"
       ],
+      "responsive-design": [
+        "daily-grind"
+      ],
+      "selector-atrule-combinations": [
+        "daily-grind"
+      ],
       "size-aware-styling": [
         "daily-grind",
         "devtools-times"
       ],
       "style-parent-with-has": [
         "task"
+      ],
+      "usage-aware-component-variations": [
+        "daily-grind",
+        "devtools-times"
       ]
     },
     "forms": {
@@ -105,18 +133,42 @@
       "select-menu-interaction": [
         "task"
       ],
+      "slider": [
+        "daily-grind"
+      ],
       "sms-otp-form": [
         "daily-grind",
         "devtools-times"
+      ],
+      "switch": [
+        "daily-grind"
       ],
       "validate-input-after-interaction": [
         "task"
       ]
     },
     "html": {
+      "accessible-web-components": [
+        "daily-grind"
+      ],
+      "custom-elements": [
+        "daily-grind"
+      ],
+      "form-associated-custom-elements": [
+        "daily-grind"
+      ],
       "html": [
         "daily-grind",
         "devtools-times"
+      ],
+      "prerendering-custom-elements": [
+        "daily-grind"
+      ],
+      "shadow-dom": [
+        "daily-grind"
+      ],
+      "web-components": [
+        "daily-grind"
       ]
     },
     "js": {
@@ -129,16 +181,7 @@
       "coordinate-global-events": [
         "task"
       ],
-      "format-human-readable-durations": [
-        "task"
-      ],
-      "manage-recurring-intervals": [
-        "task"
-      ],
-      "model-partial-time-concepts": [
-        "task"
-      ],
-      "stabilize-reactive-state": [
+      "sort-high-precision-timestamps": [
         "task"
       ],
       "support-global-calendar-systems": [
@@ -195,11 +238,17 @@
       "improve-next-page-load-performance": [
         "task"
       ],
+      "interaction-paint-timing": [
+        "daily-grind"
+      ],
       "interactions-in-complex-layouts": [
         "task"
       ],
+      "lazy-load-video-and-audio": [
+        "daily-grind"
+      ],
       "optimize-image-priority": [
-        "task"
+        "daily-grind"
       ],
       "optimize-preload-priority": [
         "task"
@@ -215,9 +264,6 @@
       ],
       "schedule-tasks-by-priority": [
         "task"
-      ],
-      "sequence-distributed-events": [
-        "task"
       ]
     },
     "privacy": {
@@ -226,7 +272,18 @@
         "devtools-times"
       ]
     },
+    "pwa": {
+      "migrate-web-app-origin": [
+        "daily-grind"
+      ]
+    },
     "security": {
+      "client-side-encryption": [
+        "daily-grind"
+      ],
+      "digital-signatures": [
+        "daily-grind"
+      ],
       "local-network-access": [
         "daily-grind",
         "devtools-times"
@@ -250,6 +307,30 @@
       "passkeys": [
         "daily-grind",
         "devtools-times"
+      ],
+      "quick-sign-ins": [
+        "daily-grind"
+      ],
+      "restrict-outbound-connections": [
+        "daily-grind"
+      ],
+      "sanitize-untrusted-html": [
+        "daily-grind"
+      ],
+      "secure-external-subresources": [
+        "daily-grind"
+      ],
+      "security": [
+        "daily-grind"
+      ],
+      "trusted-types": [
+        "daily-grind"
+      ],
+      "validate-origins": [
+        "daily-grind"
+      ],
+      "verify-email-ownership": [
+        "daily-grind"
       ]
     },
     "ui-atoms": {
@@ -259,14 +340,17 @@
       "component-specific-light-dark-theme": [
         "task"
       ],
+      "icons": [
+        "daily-grind"
+      ],
       "position-aware-tooltips": [
         "task"
       ],
       "pull-to-reveal": [
         "task"
       ],
-      "resilient-context-menus-and-nested-dropdowns": [
-        "task"
+      "responsive-table": [
+        "daily-grind"
       ],
       "scroll-position-aware-elements": [
         "task"
@@ -282,11 +366,17 @@
       ],
       "state-aware-sticky-headers": [
         "task"
+      ],
+      "viewport-aware-dropdowns": [
+        "task"
       ]
     },
     "ui-behaviors": {
+      "2d-panning": [
+        "daily-grind"
+      ],
       "anchor-positioning-tab-underline": [
-        "task"
+        "daily-grind"
       ],
       "animate-element-entry-exit": [
         "task"
@@ -314,6 +404,9 @@
         "daily-grind",
         "devtools-times"
       ],
+      "drag": [
+        "daily-grind"
+      ],
       "dynamic-sibling-animations": [
         "task"
       ],
@@ -335,6 +428,9 @@
       "light-dismiss-a-dialog": [
         "task"
       ],
+      "motion": [
+        "daily-grind"
+      ],
       "move-dom-element-without-losing-state": [
         "task"
       ],
@@ -350,8 +446,17 @@
       "platform-controls-dismiss-dialog": [
         "task"
       ],
+      "prevent-page-scroll-under-modal-dialog": [
+        "daily-grind"
+      ],
       "same-document-transitions": [
         "task"
+      ],
+      "scoped-component-transitions": [
+        "daily-grind"
+      ],
+      "scroll-completion-effects": [
+        "daily-grind"
       ],
       "scroll-entry-exit-effects": [
         "task"
@@ -371,11 +476,35 @@
       "search-hidden-content": [
         "task"
       ],
+      "spatial-navigation": [
+        "daily-grind"
+      ],
       "swipe-to-remove": [
         "task"
+      ],
+      "swipe-to-reveal": [
+        "daily-grind"
       ]
     },
     "ui-components": {
+      "card": [
+        "daily-grind"
+      ],
+      "checkbox": [
+        "daily-grind"
+      ],
+      "dark-mode-toggle": [
+        "daily-grind"
+      ],
+      "dialog": [
+        "daily-grind"
+      ],
+      "hovercard": [
+        "daily-grind"
+      ],
+      "menu": [
+        "daily-grind"
+      ],
       "navigation-drawer": [
         "task"
       ],
@@ -385,9 +514,18 @@
       "persistent-toast-notifications": [
         "task"
       ],
+      "progress": [
+        "daily-grind"
+      ],
+      "progress-ring": [
+        "daily-grind"
+      ],
       "scrollspy": [
         "daily-grind",
         "devtools-times"
+      ],
+      "spinner": [
+        "daily-grind"
       ],
       "stack-drill-down": [
         "task"
@@ -400,14 +538,29 @@
       "apply-webgl-shaders": [
         "task"
       ],
+      "browser-ui-theming": [
+        "daily-grind"
+      ],
+      "color": [
+        "daily-grind"
+      ],
       "complex-shapes": [
         "task"
+      ],
+      "contrast-color": [
+        "daily-grind"
+      ],
+      "custom-text-decorations": [
+        "daily-grind"
       ],
       "customize-scrollbar-color-and-thickness": [
         "task"
       ],
       "dark-mode": [
         "task"
+      ],
+      "equal-width-text-lines": [
+        "daily-grind"
       ],
       "export-html-media-from-canvas": [
         "task"
@@ -429,6 +582,9 @@
       ],
       "soft-edge-content-fade": [
         "task"
+      ],
+      "typography": [
+        "daily-grind"
       ],
       "visually-stable-font-fallbacks": [
         "task"

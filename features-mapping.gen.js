@@ -69,7 +69,7 @@ window.__featuresMapping = {
     "abs-sign",
     "color-mix",
     "light-dark",
-    "tmp-revert-rule"
+    "revert-rule"
   ],
   "css-layout": [
     "flexbox",
@@ -133,7 +133,7 @@ window.__featuresMapping = {
     "customizable-select"
   ],
   "autofill-address-form": [
-    "autofill"
+    "input"
   ],
   "autofill-highlight-inputs": [
     "autofill"
@@ -160,7 +160,7 @@ window.__featuresMapping = {
     "customizable-select"
   ],
   "button-group": [
-    "customizable-select"
+    "tmp-customizable-select-listbox"
   ],
   "combobox": [
     "customizable-select",
@@ -170,7 +170,7 @@ window.__featuresMapping = {
     "customizable-select"
   ],
   "cycle-toggle": [
-    "customizable-select"
+    "tmp-customizable-select-listbox"
   ],
   "filterable-select": [
     "customizable-select",
@@ -187,7 +187,7 @@ window.__featuresMapping = {
   "rating": [
     "meter",
     "input-range",
-    "customizable-select"
+    "tmp-customizable-select-listbox"
   ],
   "required-field-feedback": [
     "user-pseudos"
@@ -228,7 +228,7 @@ window.__featuresMapping = {
   "tree-view": [
     "details",
     "details-content",
-    "customizable-select"
+    "tmp-customizable-select-listbox"
   ],
   "validate-input-after-interaction": [
     "user-pseudos"
@@ -274,7 +274,8 @@ window.__featuresMapping = {
     "declarative-shadow-dom"
   ],
   "calculate-event-differentials": [
-    "temporal"
+    "temporal",
+    "intl-duration-format"
   ],
   "capture-location-agnostic-data": [
     "temporal"
@@ -282,17 +283,7 @@ window.__featuresMapping = {
   "coordinate-global-events": [
     "temporal"
   ],
-  "format-human-readable-durations": [
-    "temporal",
-    "intl-duration-format"
-  ],
-  "manage-recurring-intervals": [
-    "temporal"
-  ],
-  "model-partial-time-concepts": [
-    "temporal"
-  ],
-  "stabilize-reactive-state": [
+  "sort-high-precision-timestamps": [
     "temporal"
   ],
   "support-global-calendar-systems": [
@@ -355,6 +346,7 @@ window.__featuresMapping = {
   ],
   "identify-inp-causes": [
     "long-animation-frames",
+    "tmp-long-animation-frames-style-layout",
     "event-timing"
   ],
   "improve-next-page-load-performance": [
@@ -402,9 +394,6 @@ window.__featuresMapping = {
   ],
   "schedule-tasks-by-priority": [
     "scheduler"
-  ],
-  "sequence-distributed-events": [
-    "temporal"
   ],
   "share-web-fonts-across-origins": [
     "tmp-cross-origin-storage",
@@ -494,6 +483,12 @@ window.__featuresMapping = {
   "passkeys": [
     "webauthn"
   ],
+  "quick-sign-ins": [
+    "webauthn",
+    "password-credentials",
+    "credential-management",
+    "webauthn-signals"
+  ],
   "restrict-outbound-connections": [
     "connection-allowlists"
   ],
@@ -532,12 +527,11 @@ window.__featuresMapping = {
     "symbols-function"
   ],
   "icons": [
+    "svg",
     "masks",
     "image-set",
-    "svg",
     "container-style-queries",
-    "registered-custom-properties",
-    "link-parameters"
+    "registered-custom-properties"
   ],
   "position-aware-tooltips": [
     "container-anchor-position-queries",
@@ -546,10 +540,6 @@ window.__featuresMapping = {
   "pull-to-reveal": [
     "scroll-initial-target",
     "scroll-snap"
-  ],
-  "resilient-context-menus-and-nested-dropdowns": [
-    "anchor-positioning",
-    "popover"
   ],
   "responsive-table": [
     "sticky-positioning",
@@ -569,6 +559,14 @@ window.__featuresMapping = {
   ],
   "state-aware-sticky-headers": [
     "container-scroll-state-queries"
+  ],
+  "viewport-aware-dropdowns": [
+    "anchor-positioning",
+    "popover"
+  ],
+  "2d-panning": [
+    "scroll-axis-lock",
+    "overscroll-behavior"
   ],
   "anchor-positioning-tab-underline": [
     "anchor-positioning",
@@ -606,9 +604,6 @@ window.__featuresMapping = {
     "invoker-commands",
     "popover",
     "dialog"
-  ],
-  "diagonal-panning": [
-    "scroll-axis-lock"
   ],
   "directional-navigation-transitions": [
     "view-transitions",
@@ -669,7 +664,7 @@ window.__featuresMapping = {
     "display-animation",
     "overlay",
     "prefers-reduced-motion",
-    "registered-custom-properties"
+    "nesting"
   ],
   "move-dom-element-without-losing-state": [
     "move-before"
@@ -766,7 +761,8 @@ window.__featuresMapping = {
     "transition-behavior",
     "starting-style",
     "details-name",
-    "details"
+    "details",
+    "invoker-commands"
   ],
   "breadcrumbs": [
     "border-shape",
@@ -776,7 +772,7 @@ window.__featuresMapping = {
   "card": [
     "has",
     "container-queries",
-    "container-style-queries"
+    "subgrid"
   ],
   "carousel": [
     "scroll-snap",
@@ -792,7 +788,7 @@ window.__featuresMapping = {
   "checkbox-group": [
     "subgrid",
     "indeterminate",
-    "customizable-select"
+    "tmp-customizable-select-listbox"
   ],
   "content-table": [
     "sticky-positioning",
@@ -816,6 +812,13 @@ window.__featuresMapping = {
   "data-grid": [
     "field-sizing"
   ],
+  "dialog": [
+    "dialog",
+    "dialog-closedby",
+    "invoker-commands",
+    "popover",
+    "overscroll-behavior"
+  ],
   "hovercard": [
     "popover",
     "popover-hint",
@@ -833,12 +836,10 @@ window.__featuresMapping = {
     "picture-in-picture"
   ],
   "menu": [
-    "container-scroll-state-queries",
     "popover",
-    "subgrid",
-    "menu",
-    "sticky-positioning",
-    "anchor-positioning"
+    "invoker-commands",
+    "anchor-positioning",
+    "focusgroup"
   ],
   "navbar": [
     "popover"
@@ -864,7 +865,10 @@ window.__featuresMapping = {
   ],
   "progress": [
     "accent-color",
-    "progress"
+    "progress",
+    "revert-rule",
+    "container-queries",
+    "individual-transforms"
   ],
   "progress-ring": [
     "progress",
@@ -901,6 +905,35 @@ window.__featuresMapping = {
     "scroll-snap",
     "popover",
     "scroll-buttons"
+  ],
+  "content-first-noise-reduction": [
+    "popover",
+    "details"
+  ],
+  "form-factor-adaptation": [
+    "container-queries",
+    "safe-area-inset",
+    "text-wrap-balance",
+    "text-wrap-pretty"
+  ],
+  "guided-navigation": [
+    "view-transitions",
+    "cross-document-view-transitions",
+    "speculation-rules"
+  ],
+  "natural-interactions": [
+    "focus-visible",
+    "linear-easing",
+    "scroll-snap"
+  ],
+  "preference-aware-ui": [
+    "prefers-color-scheme",
+    "color-scheme",
+    "light-dark",
+    "prefers-reduced-motion",
+    "intl",
+    "network-information",
+    "service-workers"
   ],
   "adapt-scrollbar-to-contrast-preferences": [
     "scrollbar-color",
@@ -958,8 +991,8 @@ window.__featuresMapping = {
     "tmp-text-decoration-inset",
     "text-decoration-skip-spaces",
     "background-clip-border-area",
-    "tmp-path-length",
-    "border-shape"
+    "border-shape",
+    "corner-shape"
   ],
   "customize-scrollbar-color-and-thickness": [
     "scrollbar-color",
@@ -1061,6 +1094,10 @@ window.__featuresMapping = {
     "declarative-webmcp"
   ],
   "agentic-javascript-tools": [
+    "document-modelcontext"
+  ],
+  "webmcp": [
+    "declarative-webmcp",
     "document-modelcontext"
   ]
 };
