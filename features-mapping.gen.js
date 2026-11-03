@@ -380,9 +380,6 @@ window.__featuresMapping = {
   "optimize-script-priority": [
     "fetch-priority"
   ],
-  "optimize-scroll-stability": [
-    "contain-intrinsic-size"
-  ],
   "out-of-order-html-streaming": [
     "template-for",
     "html-setters",
@@ -908,7 +905,9 @@ window.__featuresMapping = {
   ],
   "content-first-noise-reduction": [
     "popover",
-    "details"
+    "details",
+    "invoker-commands",
+    "container-scroll-state-queries"
   ],
   "form-factor-adaptation": [
     "container-queries",
