@@ -2695,6 +2695,27 @@
       ]
     },
     {
+      "id": "breadcrumbs",
+      "category": "ui-components",
+      "title": "Build breadcrumbs",
+      "description": "Build a breadcrumb trail that shows the user's location within a site hierarchy and lets them navigate to ancestor pages.",
+      "features": [
+        "border-shape",
+        "corner-shape",
+        "sibling-count",
+        "forced-colors",
+        "focus-visible",
+        "clip-path",
+        "logical-properties"
+      ],
+      "demos": [
+        {
+          "id": "demo",
+          "path": "guides/ui-components/breadcrumbs/demo.html"
+        }
+      ]
+    },
+    {
       "id": "card",
       "category": "ui-components",
       "title": "Build a Card",
@@ -3410,8 +3431,10 @@
     "fetchlater",
     "field-sizing",
     "file-selector-button",
+    "focus-visible",
     "focusgroup",
     "font-size-adjust",
+    "forced-colors",
     "form-associated-custom-elements",
     "function",
     "has",
@@ -3444,6 +3467,7 @@
     "loading-lazy",
     "loading-lazy-media",
     "local-network-access",
+    "logical-properties",
     "long-animation-frames",
     "masks",
     "meta-text-scale",

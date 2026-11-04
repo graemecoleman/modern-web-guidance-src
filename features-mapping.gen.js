@@ -584,6 +584,11 @@ window.__featuresMapping = {
   "carousel-snap-highlights": [
     "container-scroll-state-queries"
   ],
+  "client-side-routing": [
+    "navigation",
+    "view-transitions",
+    "active-view-transition"
+  ],
   "consistent-cross-document-transitions": [
     "blocking-render",
     "link-rel-expect",
@@ -764,7 +769,11 @@ window.__featuresMapping = {
   "breadcrumbs": [
     "border-shape",
     "corner-shape",
-    "popover"
+    "sibling-count",
+    "forced-colors",
+    "focus-visible",
+    "clip-path",
+    "logical-properties"
   ],
   "card": [
     "has",
