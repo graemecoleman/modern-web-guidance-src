@@ -471,7 +471,8 @@ window.__featuresMapping = {
     "webauthn-signals"
   ],
   "passkey-reauthentication": [
-    "webauthn"
+    "webauthn",
+    "webauthn-signals"
   ],
   "passkey-registration": [
     "webauthn",
@@ -807,7 +808,12 @@ window.__featuresMapping = {
   ],
   "copy-button": [
     "invoker-commands",
-    "async-clipboard"
+    "async-clipboard",
+    "popover",
+    "prefers-reduced-motion",
+    "logical-properties",
+    "focus-within",
+    "interaction"
   ],
   "dark-mode-toggle": [
     "color-scheme",
@@ -906,11 +912,24 @@ window.__featuresMapping = {
     "scroll-snap-events"
   ],
   "tabs": [
+    "focusgroup",
     "anchor-positioning",
     "hidden-until-found",
     "scroll-snap",
     "popover",
     "scroll-buttons"
+  ],
+  "toolbar": [
+    "popover",
+    "interest-invokers",
+    "popover-hint",
+    "anchor-positioning",
+    "async-clipboard",
+    "forced-colors",
+    "focus-visible",
+    "prefers-reduced-motion",
+    "logical-properties",
+    "focusgroup"
   ],
   "content-first-noise-reduction": [
     "popover",
@@ -932,7 +951,9 @@ window.__featuresMapping = {
   "natural-interactions": [
     "focus-visible",
     "linear-easing",
-    "scroll-snap"
+    "scroll-snap",
+    "popover",
+    "anchor-positioning"
   ],
   "preference-aware-ui": [
     "prefers-color-scheme",

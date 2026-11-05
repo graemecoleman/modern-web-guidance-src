@@ -1577,7 +1577,8 @@
       "title": "Passkey Reauthentication",
       "description": "Verify a signed-in user's identity using their existing passkeys before a sensitive action.",
       "features": [
-        "webauthn"
+        "webauthn",
+        "webauthn-signals"
       ],
       "demos": [
         {
@@ -2751,6 +2752,27 @@
       ]
     },
     {
+      "id": "copy-button",
+      "category": "ui-components",
+      "title": "Copy button",
+      "description": "Build a copy button that copies text from arbitrary elements to the clipboard.",
+      "features": [
+        "invoker-commands",
+        "async-clipboard",
+        "popover",
+        "prefers-reduced-motion",
+        "logical-properties",
+        "focus-within",
+        "interaction"
+      ],
+      "demos": [
+        {
+          "id": "demo",
+          "path": "guides/ui-components/copy-button/demo.html"
+        }
+      ]
+    },
+    {
       "id": "dialog",
       "category": "ui-components",
       "title": "Dialog",
@@ -2965,6 +2987,50 @@
         {
           "id": "negative-demo",
           "path": "guides/ui-components/stack-drill-down/negative-demo.html"
+        }
+      ]
+    },
+    {
+      "id": "tabs",
+      "category": "ui-components",
+      "title": "Tabbed interfaces",
+      "description": "Build a responsive tabbed interface with good UX when not all tabs fit on screen.",
+      "features": [
+        "focusgroup",
+        "anchor-positioning",
+        "hidden-until-found",
+        "scroll-snap",
+        "popover",
+        "scroll-buttons"
+      ],
+      "demos": [
+        {
+          "id": "demo",
+          "path": "guides/ui-components/tabs/demo.html"
+        }
+      ]
+    },
+    {
+      "id": "toolbar",
+      "category": "ui-components",
+      "title": "Build a toolbar",
+      "description": "Build a toolbar component that displays a set of controls for performing actions.",
+      "features": [
+        "popover",
+        "interest-invokers",
+        "popover-hint",
+        "anchor-positioning",
+        "async-clipboard",
+        "forced-colors",
+        "focus-visible",
+        "prefers-reduced-motion",
+        "logical-properties",
+        "focusgroup"
+      ],
+      "demos": [
+        {
+          "id": "demo",
+          "path": "guides/ui-components/toolbar/demo.html"
         }
       ]
     },
@@ -3389,6 +3455,7 @@
     "app-migration",
     "appearance",
     "aria-attribute-reflection",
+    "async-clipboard",
     "attr",
     "audio",
     "autocorrect",
@@ -3432,6 +3499,7 @@
     "field-sizing",
     "file-selector-button",
     "focus-visible",
+    "focus-within",
     "focusgroup",
     "font-size-adjust",
     "forced-colors",
@@ -3450,6 +3518,7 @@
     "input-email-tel-url",
     "input-range",
     "inputmode",
+    "interaction",
     "interaction-contentful-paint",
     "interest-invokers",
     "interpolate-size",
@@ -3504,6 +3573,7 @@
     "sanitizer",
     "scheduler",
     "scroll-axis-lock",
+    "scroll-buttons",
     "scroll-driven-animations",
     "scroll-initial-target",
     "scroll-into-view",

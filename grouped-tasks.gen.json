@@ -491,6 +491,9 @@
       ]
     },
     "ui-components": {
+      "breadcrumbs": [
+        "daily-grind"
+      ],
       "card": [
         "daily-grind"
       ],
@@ -533,10 +536,16 @@
       ],
       "stack-drill-down": [
         "task"
+      ],
+      "toolbar": [
+        "daily-grind"
       ]
     },
     "user-experience": {
       "content-first-noise-reduction": [
+        "daily-grind"
+      ],
+      "natural-interactions": [
         "daily-grind"
       ]
     },
