@@ -392,10 +392,11 @@
     {
       "id": "autofill-highlight-inputs",
       "category": "forms",
-      "title": "Highlight browser-autofilled fields the user hasn't edited with CSS :autofill",
-      "description": "Use CSS to highlight form fields that have been autofilled by the browser and not edited by the user.",
+      "title": "Customize the styling of autofilled form fields",
+      "description": "Customize the styling of form fields that have been autofilled and not edited by the user",
       "features": [
-        "autofill"
+        "autofill",
+        "text-stroke-fill"
       ],
       "demos": [
         {
@@ -2181,8 +2182,8 @@
     {
       "id": "group-element-transitions",
       "category": "ui-behaviors",
-      "title": "Group Element Transitions",
-      "description": "Transition a group of similar elements simultaneously using the same transition logic, such as removing a product from a shopping cart and having all the other products animate into their new positions.",
+      "title": "Smoothly rearrange cards, lists, and groups of elements on add, remove, or reorder",
+      "description": "Smoothly rearrange and animate list items, cards, or grid elements into their new positions simultaneously when adding, removing, shuffling, or reordering—such as removing a product from a shopping cart.",
       "features": [
         "view-transitions",
         "view-transition-class"
@@ -2683,9 +2684,10 @@
         "hidden-until-found",
         "interpolate-size",
         "transition-behavior",
-        "starting-style",
         "details-name",
+        "dir-pseudo",
         "details",
+        "details-content",
         "invoker-commands"
       ],
       "demos": [
@@ -3485,6 +3487,7 @@
     "declarative-shadow-dom",
     "declarative-webmcp",
     "details",
+    "details-content",
     "details-name",
     "dialog",
     "dialog-closedby",
@@ -3606,6 +3609,7 @@
     "text-decoration-skip-ink-all",
     "text-decoration-skip-spaces",
     "text-fit",
+    "text-stroke-fill",
     "text-wrap-balance",
     "text-wrap-pretty",
     "tmp-cross-origin-storage",

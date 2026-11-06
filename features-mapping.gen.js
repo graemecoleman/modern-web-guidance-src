@@ -136,7 +136,8 @@ window.__featuresMapping = {
     "input"
   ],
   "autofill-highlight-inputs": [
-    "autofill"
+    "autofill",
+    "text-stroke-fill"
   ],
   "autofill-payment-form": [
     "enterkeyhint",
@@ -762,9 +763,10 @@ window.__featuresMapping = {
     "hidden-until-found",
     "interpolate-size",
     "transition-behavior",
-    "starting-style",
     "details-name",
+    "dir-pseudo",
     "details",
+    "details-content",
     "invoker-commands"
   ],
   "breadcrumbs": [

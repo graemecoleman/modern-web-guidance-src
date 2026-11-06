@@ -168,6 +168,9 @@
       "shadow-dom": [
         "daily-grind"
       ],
+      "styling-web-components": [
+        "daily-grind"
+      ],
       "web-components": [
         "daily-grind"
       ]
@@ -499,6 +502,10 @@
       ],
       "checkbox": [
         "daily-grind"
+      ],
+      "copy-button": [
+        "daily-grind",
+        "daily-grind-newly"
       ],
       "dark-mode-toggle": [
         "daily-grind"
