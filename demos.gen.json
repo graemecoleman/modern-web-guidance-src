@@ -1455,6 +1455,24 @@
       ]
     },
     {
+      "id": "install-web-app",
+      "category": "pwa",
+      "title": "Installing web applications",
+      "description": "Install web applications from a page using browser-controlled consent UI.",
+      "features": [
+        "install",
+        "navigator-install",
+        "beforeinstallprompt",
+        "manifest"
+      ],
+      "demos": [
+        {
+          "id": "demo",
+          "path": "guides/pwa/install-web-app/demo.html"
+        }
+      ]
+    },
+    {
       "id": "migrate-web-app-origin",
       "category": "pwa",
       "title": "Migrating the Origin of an Installed Web App",
@@ -1881,9 +1899,10 @@
       "id": "scrollability-affordance-hints",
       "category": "ui-atoms",
       "title": "Scrollability Affordance Hints",
-      "description": "Build scroll-shadow overlays, gradient fades, or directional arrow indicators that appear only when there's actually more content to scroll to in that direction.",
+      "description": "Build scroll shadows or fading edges that appear only when there's actually more content to scroll to in that direction.",
       "features": [
-        "container-scroll-state-queries"
+        "container-scroll-state-queries",
+        "scroll-driven-animations"
       ],
       "demos": [
         {
@@ -2176,6 +2195,23 @@
         {
           "id": "negative-demo",
           "path": "guides/ui-behaviors/dynamic-sibling-animations/negative-demo.html"
+        }
+      ]
+    },
+    {
+      "id": "dynamic-sort",
+      "category": "ui-behaviors",
+      "title": "Handling dynamic user-triggered changes to sort order",
+      "description": "Best practices for handling dynamic user-triggered reordering of a container's children (e.g. list items, table rows, or a card grid), with optional animated reordering that respects user preferences, good screen reader UX, and optimal performance for large lists.",
+      "features": [
+        "view-transitions",
+        "view-transitions-element-scoped",
+        "move-before"
+      ],
+      "demos": [
+        {
+          "id": "demo",
+          "path": "guides/ui-behaviors/dynamic-sort/demo.html"
         }
       ]
     },
@@ -2698,6 +2734,25 @@
       ]
     },
     {
+      "id": "app-menus",
+      "category": "ui-components",
+      "title": "Build an application menu bar",
+      "description": "Build an application menu bar where several top-level menus (such as File, Edit, and View) act as a single keyboard stop and switch between each other on hover or arrow keys.",
+      "features": [
+        "popover",
+        "invoker-commands",
+        "anchor-positioning",
+        "focusgroup",
+        "has"
+      ],
+      "demos": [
+        {
+          "id": "demo",
+          "path": "guides/ui-components/app-menus/demo.html"
+        }
+      ]
+    },
+    {
       "id": "breadcrumbs",
       "category": "ui-components",
       "title": "Build breadcrumbs",
@@ -2817,18 +2872,45 @@
     {
       "id": "menu",
       "category": "ui-components",
-      "title": "Build a dropdown menu",
+      "title": "Build a popup menu",
       "description": "Build a menu component that displays a list of options or actions, with support for nested submenus.",
       "features": [
         "popover",
         "invoker-commands",
         "anchor-positioning",
-        "focusgroup"
+        "focusgroup",
+        "has",
+        "abs-sign"
       ],
       "demos": [
         {
           "id": "demo",
           "path": "guides/ui-components/menu/demo.html"
+        }
+      ]
+    },
+    {
+      "id": "navbar",
+      "category": "ui-components",
+      "title": "Responsive Site Navigation",
+      "description": "Build a site navigation bar that adapts across screen sizes and indicates the current page.",
+      "features": [
+        "popover",
+        "nesting",
+        "anchor-positioning",
+        "viewport-unit-variants",
+        "logical-properties",
+        "focus-visible",
+        "forced-colors",
+        "starting-style",
+        "transition-behavior",
+        "interpolate-size",
+        "content-visibility"
+      ],
+      "demos": [
+        {
+          "id": "demo",
+          "path": "guides/ui-components/navbar/demo.html"
         }
       ]
     },
@@ -2999,11 +3081,10 @@
       "description": "Build a responsive tabbed interface with good UX when not all tabs fit on screen.",
       "features": [
         "focusgroup",
-        "anchor-positioning",
         "hidden-until-found",
         "scroll-snap",
-        "popover",
-        "scroll-buttons"
+        "scroll-driven-animations",
+        "interpolate-size"
       ],
       "demos": [
         {
@@ -3450,6 +3531,7 @@
   ],
   "features": [
     "aborting",
+    "abs-sign",
     "accent-color",
     "active-view-transition",
     "anchor-positioning",
@@ -3465,6 +3547,7 @@
     "autonomous-custom-elements",
     "backdrop",
     "background-clip-border-area",
+    "beforeinstallprompt",
     "blocking-render",
     "border-shape",
     "calc-size",
@@ -3521,6 +3604,7 @@
     "input-email-tel-url",
     "input-range",
     "inputmode",
+    "install",
     "interaction",
     "interaction-contentful-paint",
     "interest-invokers",
@@ -3541,12 +3625,14 @@
     "local-network-access",
     "logical-properties",
     "long-animation-frames",
+    "manifest",
     "masks",
     "meta-text-scale",
     "modal",
     "move-before",
     "mutationobserver",
     "navigation",
+    "navigator-install",
     "nesting",
     "not",
     "origin",
@@ -3576,7 +3662,6 @@
     "sanitizer",
     "scheduler",
     "scroll-axis-lock",
-    "scroll-buttons",
     "scroll-driven-animations",
     "scroll-initial-target",
     "scroll-into-view",
@@ -3634,6 +3719,7 @@
     "view-transition-class",
     "view-transitions",
     "view-transitions-element-scoped",
+    "viewport-unit-variants",
     "web-animations",
     "web-cryptography",
     "web-otp",

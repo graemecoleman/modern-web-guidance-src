@@ -494,6 +494,9 @@
       ]
     },
     "ui-components": {
+      "app-menus": [
+        "daily-grind"
+      ],
       "breadcrumbs": [
         "daily-grind"
       ],
@@ -535,8 +538,7 @@
         "daily-grind"
       ],
       "scrollspy": [
-        "daily-grind",
-        "daily-grind-limited"
+        "daily-grind"
       ],
       "spinner": [
         "daily-grind"

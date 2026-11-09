@@ -419,6 +419,12 @@ window.__featuresMapping = {
     "window-drag",
     "window-controls-overlay"
   ],
+  "install-web-app": [
+    "install",
+    "navigator-install",
+    "beforeinstallprompt",
+    "manifest"
+  ],
   "installable-web-app-metadata": [
     "manifest",
     "manifest-localization",
@@ -551,7 +557,8 @@ window.__featuresMapping = {
     "scroll-driven-animations"
   ],
   "scrollability-affordance-hints": [
-    "container-scroll-state-queries"
+    "container-scroll-state-queries",
+    "scroll-driven-animations"
   ],
   "shrinking-header-on-scroll": [
     "scroll-driven-animations"
@@ -626,6 +633,7 @@ window.__featuresMapping = {
   ],
   "dynamic-sort": [
     "view-transitions",
+    "view-transitions-element-scoped",
     "move-before"
   ],
   "group-element-transitions": [
@@ -769,6 +777,13 @@ window.__featuresMapping = {
     "details-content",
     "invoker-commands"
   ],
+  "app-menus": [
+    "popover",
+    "invoker-commands",
+    "anchor-positioning",
+    "focusgroup",
+    "has"
+  ],
   "breadcrumbs": [
     "border-shape",
     "corner-shape",
@@ -853,10 +868,22 @@ window.__featuresMapping = {
     "popover",
     "invoker-commands",
     "anchor-positioning",
-    "focusgroup"
+    "focusgroup",
+    "has",
+    "abs-sign"
   ],
   "navbar": [
-    "popover"
+    "popover",
+    "nesting",
+    "anchor-positioning",
+    "viewport-unit-variants",
+    "logical-properties",
+    "focus-visible",
+    "forced-colors",
+    "starting-style",
+    "transition-behavior",
+    "interpolate-size",
+    "content-visibility"
   ],
   "navigation-drawer": [
     "inert",
@@ -915,11 +942,10 @@ window.__featuresMapping = {
   ],
   "tabs": [
     "focusgroup",
-    "anchor-positioning",
     "hidden-until-found",
     "scroll-snap",
-    "popover",
-    "scroll-buttons"
+    "scroll-driven-animations",
+    "interpolate-size"
   ],
   "toolbar": [
     "popover",
@@ -943,7 +969,9 @@ window.__featuresMapping = {
     "container-queries",
     "safe-area-inset",
     "text-wrap-balance",
-    "text-wrap-pretty"
+    "text-wrap-pretty",
+    "interaction",
+    "has"
   ],
   "guided-navigation": [
     "view-transitions",
@@ -1092,7 +1120,10 @@ window.__featuresMapping = {
     "text-wrap-balance",
     "text-wrap-pretty",
     "min-max-clamp",
-    "viewport-units"
+    "viewport-units",
+    "logical-properties",
+    "hyphens",
+    "ch"
   ],
   "visual-effects": [
     "box-shadow",
