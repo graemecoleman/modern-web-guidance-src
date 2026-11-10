@@ -280,6 +280,10 @@
       ]
     },
     "pwa": {
+      "install-web-app": [
+        "daily-grind",
+        "daily-grind-limited"
+      ],
       "migrate-web-app-origin": [
         "daily-grind"
       ]
@@ -371,6 +375,9 @@
       "shrinking-header-on-scroll": [
         "task"
       ],
+      "single-line-overflow": [
+        "daily-grind"
+      ],
       "state-aware-sticky-headers": [
         "task"
       ],
@@ -414,8 +421,14 @@
       "drag": [
         "daily-grind"
       ],
+      "drag-and-drop": [
+        "daily-grind"
+      ],
       "dynamic-sibling-animations": [
         "task"
+      ],
+      "dynamic-sort": [
+        "daily-grind"
       ],
       "group-element-transitions": [
         "task"
@@ -483,6 +496,9 @@
       "search-hidden-content": [
         "task"
       ],
+      "sortable-table": [
+        "daily-grind"
+      ],
       "spatial-navigation": [
         "daily-grind"
       ],
@@ -494,6 +510,9 @@
       ]
     },
     "ui-components": {
+      "accordion": [
+        "daily-grind"
+      ],
       "app-menus": [
         "daily-grind"
       ],
@@ -501,6 +520,9 @@
         "daily-grind"
       ],
       "card": [
+        "daily-grind"
+      ],
+      "carousel": [
         "daily-grind"
       ],
       "checkbox": [
@@ -520,6 +542,9 @@
         "daily-grind"
       ],
       "menu": [
+        "daily-grind"
+      ],
+      "navbar": [
         "daily-grind"
       ],
       "navigation-drawer": [
@@ -546,12 +571,19 @@
       "stack-drill-down": [
         "task"
       ],
+      "tabs": [
+        "daily-grind",
+        "daily-grind-limited"
+      ],
       "toolbar": [
         "daily-grind"
       ]
     },
     "user-experience": {
       "content-first-noise-reduction": [
+        "daily-grind"
+      ],
+      "form-factor-adaptation": [
         "daily-grind"
       ],
       "natural-interactions": [

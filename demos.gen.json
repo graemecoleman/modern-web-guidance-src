@@ -320,7 +320,7 @@
     {
       "id": "style-parent-with-has",
       "category": "css",
-      "title": "Style Parent with :has()",
+      "title": "Style a Form Group When a Field Is Invalid with :has()",
       "description": "Style parent elements of a form field (e.g. labels or fieldsets) when the field is invalid.",
       "features": [
         "user-pseudos"
@@ -1935,6 +1935,29 @@
       ]
     },
     {
+      "id": "single-line-overflow",
+      "category": "ui-atoms",
+      "title": "Single-line text overflow",
+      "description": "Show text that must stay on one line, such as a tab label, table cell, navigation item, or file name, in a space it may not fit, without breaking the layout or losing the text.",
+      "features": [
+        "text-overflow",
+        "container-queries",
+        "scroll-driven-animations",
+        "container-style-queries",
+        "masks",
+        "interpolate-size",
+        "resize-observer",
+        "registered-custom-properties",
+        "individual-transforms"
+      ],
+      "demos": [
+        {
+          "id": "demo",
+          "path": "guides/ui-atoms/single-line-overflow/demo.html"
+        }
+      ]
+    },
+    {
       "id": "state-aware-sticky-headers",
       "category": "ui-atoms",
       "title": "State-Aware Sticky Headers",
@@ -2176,6 +2199,24 @@
         {
           "id": "demo",
           "path": "guides/ui-behaviors/drag/demo.html"
+        }
+      ]
+    },
+    {
+      "id": "drag-and-drop",
+      "category": "ui-behaviors",
+      "title": "Rearrange Items with Drag and Drop",
+      "description": "Support dragging to rearrange the children of a container along one axis (horizontal or vertical) while preserving their state and accessible order.",
+      "features": [
+        "move-before",
+        "pointer-events-api",
+        "user-select",
+        "reading-flow"
+      ],
+      "demos": [
+        {
+          "id": "demo",
+          "path": "guides/ui-behaviors/drag-and-drop/demo.html"
         }
       ]
     },
@@ -2653,6 +2694,24 @@
       ]
     },
     {
+      "id": "sortable-table",
+      "category": "ui-behaviors",
+      "title": "Sortable Table",
+      "description": "Progressively enhance a data table with behaviors that allow users to sort rows by clicking on column headers.",
+      "features": [
+        "invoker-commands",
+        "view-transitions",
+        "view-transitions-element-scoped",
+        "move-before"
+      ],
+      "demos": [
+        {
+          "id": "demo",
+          "path": "guides/ui-behaviors/sortable-table/demo.html"
+        }
+      ]
+    },
+    {
       "id": "spatial-navigation",
       "category": "ui-behaviors",
       "title": "Spatial Navigation (Directional Keypad Focus)",
@@ -2680,7 +2739,8 @@
         "intersection-observer",
         "mutationobserver",
         "resize-observer",
-        "web-animations"
+        "web-animations",
+        "prefers-reduced-motion"
       ],
       "demos": [
         {
@@ -2787,6 +2847,30 @@
         {
           "id": "demo",
           "path": "guides/ui-components/card/demo.html"
+        }
+      ]
+    },
+    {
+      "id": "carousel",
+      "category": "ui-components",
+      "title": "Build a carousel",
+      "description": "Build a carousel component that displays a set of items in a horizontal or vertical layout.",
+      "features": [
+        "scroll-snap",
+        "scroll-behavior",
+        "scrollend",
+        "scroll-snap-events",
+        "scroll-driven-animations",
+        "sibling-count"
+      ],
+      "demos": [
+        {
+          "id": "demo",
+          "path": "guides/ui-components/carousel/demo.html"
+        },
+        {
+          "id": "demo-vertical",
+          "path": "guides/ui-components/carousel/demo-vertical.html"
         }
       ]
     },
@@ -2920,6 +3004,7 @@
       "title": "Navigation Drawer",
       "description": "Create a navigation drawer component that, when triggered from a menu button, slides in from the side overlaid on top of existing page content, and slides out when dismissed (by swiping away, tapping outside, or pressing escape).",
       "features": [
+        "dialog",
         "inert",
         "intersection-observer",
         "popover",
@@ -2966,6 +3051,7 @@
       "description": "Create non-intrusive toast and overlay notifications for persistent, stackable messaging and state communication.",
       "features": [
         "popover",
+        "arianotify",
         "anchor-positioning",
         "sibling-count",
         "transition-behavior"
@@ -3539,6 +3625,7 @@
     "app-migration",
     "appearance",
     "aria-attribute-reflection",
+    "arianotify",
     "async-clipboard",
     "attr",
     "audio",
@@ -3654,6 +3741,7 @@
     "prefers-reduced-motion",
     "progress",
     "progress-function",
+    "reading-flow",
     "referrer-policy",
     "registered-custom-properties",
     "resize",
@@ -3662,6 +3750,7 @@
     "sanitizer",
     "scheduler",
     "scroll-axis-lock",
+    "scroll-behavior",
     "scroll-driven-animations",
     "scroll-initial-target",
     "scroll-into-view",
@@ -3694,6 +3783,7 @@
     "text-decoration-skip-ink-all",
     "text-decoration-skip-spaces",
     "text-fit",
+    "text-overflow",
     "text-stroke-fill",
     "text-wrap-balance",
     "text-wrap-pretty",
