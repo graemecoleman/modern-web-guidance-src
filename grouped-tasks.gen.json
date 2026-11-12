@@ -646,6 +646,9 @@
       "typography": [
         "daily-grind"
       ],
+      "visual-effects": [
+        "daily-grind"
+      ],
       "visually-stable-font-fallbacks": [
         "task"
       ],
