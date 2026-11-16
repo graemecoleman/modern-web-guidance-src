@@ -284,6 +284,20 @@ window.__featuresMapping = {
   "coordinate-global-events": [
     "temporal"
   ],
+  "js": [
+    "structured-clone",
+    "url",
+    "dom",
+    "array-group",
+    "promise-withresolvers",
+    "events",
+    "array-by-copy",
+    "array-findlast",
+    "abortsignal-timeout",
+    "abortsignal-any",
+    "error-cause",
+    "text-encoding"
+  ],
   "sort-high-precision-timestamps": [
     "temporal"
   ],
@@ -316,9 +330,6 @@ window.__featuresMapping = {
     "scrollend"
   ],
   "deliver-optimized-decorative-images": [
-    "image-set"
-  ],
-  "serve-alternative-image-formats": [
     "image-set"
   ],
   "deprioritize-background-fetches": [
@@ -818,6 +829,7 @@ window.__featuresMapping = {
   "carousel": [
     "scroll-snap",
     "scroll-behavior",
+    "overscroll-behavior",
     "scrollend",
     "scroll-snap-events",
     "scroll-driven-animations",
@@ -1091,7 +1103,7 @@ window.__featuresMapping = {
     "border-shape",
     "corner-shape",
     "border-radius",
-    "tmp-polygon-round"
+    "shapes-polygon-round"
   ],
   "equal-width-text-lines": [
     "text-fit",
